@@ -1,0 +1,18 @@
+[
+     {
+        "keys":["super+ctrl+r"],
+        "command": "repl_open",
+                     "caption": "Python 3.6 - Open File",
+                     "id": "repl_python",
+                     "mnemonic": "p",
+                     "args": {
+                        "type": "subprocess",
+                        "encoding": "utf8",
+                        "cmd": ["/Users/yuchens/anaconda2/envs/python3/bin/python3.6", "-i", "$file"],
+                        "cwd": "$file_path",
+                        "syntax": "Packages/Python/Python.tmLanguage",
+                        "external_id": "python",
+                        "extend_env": {"PYTHONIOENCODING": "utf-8"}
+                        }
+    }
+]
