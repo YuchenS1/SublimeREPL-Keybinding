@@ -8,7 +8,7 @@
                      "args": {
                         "type": "subprocess",
                         "encoding": "utf8",
-                        "cmd": ["/Users/yuchens/anaconda2/envs/python3/bin/python3.6", "-i", "$file"],
+                        "cmd": ["The directory to your python3.6 file", "-i", "$file"],
                         "cwd": "$file_path",
                         "syntax": "Packages/Python/Python.tmLanguage",
                         "external_id": "python",
